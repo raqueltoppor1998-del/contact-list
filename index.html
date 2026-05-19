@@ -1,9 +1,18 @@
-<h1>Meus Contatos</h1>
-<p id="contador">0 contatos</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Meus Contatos</h1>
+  <p id="contador">0 contatos</p>
+  <input type="text" id="nome" placeholder="Nome">
+  <input type="text" id="telefone" placeholder="Telefone">
+  <input type="text" id="email" placeholder="email">
+  <button onclick="adicionar()">Adicionar</button>
+  <button class="btn-limpar" onclick="limparTudo()">Limpar tudo</button>
+  <ul id="lista"></ul>
+</body>
+</html>
 
-<input type="text" id="nome" placeholder="Nome">
-<input type="text" id="telefone" placeholder="Telefone">
-<input type="text" id="email" placeholder="email">
-<button onclick="adicionar()">Adicionar</button>
-<button class="btn-limpar" onclick="limparTudo()">Limpar tudo</button>
-<ul id="lista"></ul>
